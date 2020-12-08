@@ -1,0 +1,168 @@
+@charset "UTF-8";
+
+* 
+{
+
+    padding: 0;
+    margin: 0;
+
+}
+
+:root
+{
+
+    --backgroundColor: #FBAAA0;
+
+}
+
+body 
+{
+    
+    background-color: var(--backgroundColor);
+
+}
+
+header
+{
+
+    background-color: white;    
+
+}
+
+.headerContainer
+{
+
+    display: flex;
+    flex-direction: row;    
+
+}
+
+.logo 
+{
+
+    padding: 2% 4%;    
+
+}
+
+.villageLogo 
+{
+
+    height:110px;
+    border-radius: 25%;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);    
+
+}
+
+.villageLogo:hover
+{
+
+    cursor: pointer;
+    -webkit-transform: scale(1.1);
+    transition: 0.2s ease-in;
+
+}
+
+.nav 
+{
+        
+    padding-top: 2%; 
+    margin-left: 6%;
+    width: 50%;    
+
+}
+
+.navList 
+{
+
+    list-style: none;
+    display: flex;    
+
+}
+
+.liList
+{
+
+    margin-left: 3%;
+    font-size: 1.3rem;
+    margin-top: 5%;  
+
+}
+
+.liList:hover
+{
+
+    color: var(--backgroundColor);
+    font-weight: bolder;
+    cursor: pointer;
+    -webkit-transform: scale(1.1);
+    transition: 0.2s ease-in;
+
+}
+
+.searchCart
+{
+
+    padding-top: 4.8%;
+    margin-left: 2%;
+    width: 10%;
+
+}
+
+#cartIcon 
+{
+
+   margin-left: 20%;
+   -webkit-transform: scale(1.6);
+
+}
+
+#cartIcon:hover
+{
+
+    cursor: pointer;
+    -webkit-transform: scale(1.8);
+    transition: 0.2s ease-in;
+       
+
+}
+
+#searchIcon 
+{
+    
+    -webkit-transform: scale(1.6);    
+
+}
+
+#searchIcon:hover
+{
+
+    cursor: pointer;
+    -webkit-transform: scale(1.8);
+    transition: 0.2s ease-in;
+
+}
+
+#userLogin
+{
+
+    margin-left: 20%;
+    -webkit-transform: scale(1.6);  
+
+}
+
+#userLogin:hover 
+{
+
+    cursor: pointer;
+    -webkit-transform: scale(1.8);
+    transition: 0.2s ease-in;       
+
+}
+
+#menuBars
+{
+
+    display: none;
+
+}
+

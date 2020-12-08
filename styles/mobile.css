@@ -1,0 +1,323 @@
+/* until 1024px till tablet version */
+
+@media only screen and (max-width: 1014px)
+{
+    
+    .headerContainer 
+    {
+
+        display: inline;
+
+    }
+
+    .logo 
+    {
+
+        width: 100%;
+        text-align: center;
+        padding-top: 4%;
+        
+    }
+
+    .villageLogo
+    {
+
+        height: 150px;
+
+    }
+
+    .nav
+    {
+
+        width: 100%;
+        text-align: center;
+        margin-left: 15%;
+
+    }
+
+    .navList
+    {
+
+        margin-top: -6%;
+
+    }
+
+    .searchCart 
+    {
+
+        width: 100%;
+        margin-top: 5%;
+        text-align: center;
+        padding-bottom: 10%;
+
+    }
+    
+
+}
+
+/*Tablet Version*/
+
+@media only screen and (max-width: 768px)
+{
+
+    .headerContainer 
+    {
+
+        display: inline;
+
+    }
+
+    .logo 
+    {
+
+        width: 100%;
+        text-align: center;
+        padding-top: 4%;
+        
+    }
+
+    .villageLogo
+    {
+
+        height: 150px;
+
+    }
+
+    .nav
+    {
+
+        width: 100%;
+        text-align: center;
+        margin-left: 12%;
+
+    }
+
+    .navList
+    {
+
+        margin-top: -6%;
+
+    }
+
+    .searchCart 
+    {
+
+        width: 100%;
+        margin-top: 5%;
+        text-align: center;
+        padding-bottom: 10%;
+
+    }
+
+}
+
+/*Mobile Large Version*/
+
+@media only screen and (max-width: 684px)
+{
+
+    .liList
+    {
+
+        font-size: 1rem;        
+
+    }
+
+    .nav 
+    {
+
+        margin-left: 15%;
+
+    }
+
+    #cartIcon 
+    {
+
+    
+       -webkit-transform: scale(1.);
+
+    }
+
+    #searchIcon 
+    {
+
+        -webkit-transform: scale(1.4);    
+
+    }
+
+    #userLogin
+    {
+
+        margin-left: 20%;
+        -webkit-transform: scale(1.4);  
+
+    }
+
+}
+
+/*Small Screens*/
+
+@media only screen and (max-width: 555px)
+{
+
+    .nav 
+    {
+
+        margin-left: 10%;
+
+    }    
+
+    .villageLogo 
+    {
+
+        height: 100px;
+
+    }    
+
+}
+
+/*Very Small Screens*/
+
+@media only screen and (max-width: 506px)
+{
+
+    .nav 
+    {
+
+        margin-left: 15%;
+
+    }
+
+    .liList 
+    {
+
+        font-size: 0.8rem;
+
+    }
+
+    #cartIcon 
+    {
+
+    
+       -webkit-transform: scale(1);
+
+    }
+
+    #searchIcon 
+    {
+
+        -webkit-transform: scale(1);    
+
+    }
+
+    #userLogin
+    {
+
+        margin-left: 20%;
+        -webkit-transform: scale(1);  
+
+    }
+
+}
+
+/*>=446px*/
+
+@media only screen and (max-width: 446px)
+{
+
+    .villageLogo
+    {
+
+        height: 80px;
+
+    }
+
+    .nav 
+    {
+
+        margin-left: 10%;
+
+    }
+
+}
+
+/*>=412px*/
+
+@media only screen and (max-width: 412px)
+{
+
+    .villageLogo
+    {
+
+        height: 60px;
+
+    }
+
+    .nav 
+    {
+
+        margin-left: 6%;
+
+    }
+
+}
+
+/*>=385px*/
+
+@media only screen and (max-width: 385px)
+{
+
+    .liList
+    {
+
+        font-size: 0.6rem;
+
+    }
+
+    .nav 
+    {
+
+        margin-left: 12%;
+
+    }
+
+    #cartIcon:hover 
+    {
+
+    
+       -webkit-transform: scale(1.2);
+
+    }
+
+    #searchIcon:hover 
+    {
+
+        -webkit-transform: scale(1.2);    
+
+    }
+
+    #userLogin:hover
+    {
+
+        margin-left: 20%;
+        -webkit-transform: scale(1.2);  
+
+    }
+
+}
+
+/*>= 320px*/
+
+@media only screen and (max-width: 320px)
+{
+
+    .nav 
+    {
+
+        margin-left: 8%;
+
+    }
+
+}
+
+
